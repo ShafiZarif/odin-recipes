@@ -1,0 +1,32 @@
+/* Here is the style for "Odin Recipes" index page, which is a bit different from the style used in the individual recipe pages. The index page has a more minimalistic design with a focus on the list of recipes, while the recipe pages have a more detailed and styled layout to enhance readability and presentation of the content. */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #be81c8;
+}
+
+#header {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Garamond, serif;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Lasagna, #Spaghetti, #Pasta {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #5ba8bf;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
